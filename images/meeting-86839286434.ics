@@ -1,0 +1,65 @@
+BEGIN:VCALENDAR
+PRODID:-//zoom.us//iCalendar Event//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+CLASS:PUBLIC
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+LAST-MODIFIED:20220816T024022Z
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Chicago
+X-LIC-LOCATION:America/Chicago
+BEGIN:DAYLIGHT
+TZNAME:CDT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CST
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20220911T223420Z
+DTSTART;TZID=America/Chicago:20220911T170000
+DTEND;TZID=America/Chicago:20220911T180000
+SUMMARY:Sunday Meeting
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20221219T000000;INTERVAL=1;BYDAY=SU
+UID:ZOOM86839286434
+TZID:America/Chicago
+DESCRIPTION:Graham Livingston is inviting you to a scheduled Zoom meeting
+ .\n\nJoin Zoom Meeting\nhttps://uic.zoom.us/j/86839286434?pwd=dE5JbG43MG
+ NnOEhKNDBNNFRrRVFKUT09\n\nMeeting ID: 868 3928 6434\nPasscode: NzM8Wa0t\
+ nOne tap mobile\n+13092053325\,\,86839286434#\,\,\,\,*54532974# US\n+131
+ 26266799\,\,86839286434#\,\,\,\,*54532974# US (Chicago)\n\nDial by your 
+ location\n        +1 309 205 3325 US\n        +1 312 626 6799 US (Chicag
+ o)\n        +1 646 931 3860 US\n        +1 301 715 8592 US (Washington D
+ C)\n        +1 646 876 9923 US (New York)\n        +1 669 900 6833 US (S
+ an Jose)\n        +1 719 359 4580 US\n        +1 253 215 8782 US (Tacoma
+ )\n        +1 346 248 7799 US (Houston)\n        +1 386 347 5053 US\n   
+      +1 408 638 0968 US (San Jose)\n        +1 564 217 2000 US\n        
+ +1 669 444 9171 US\nMeeting ID: 868 3928 6434\nPasscode: 54532974\nFind 
+ your local number: https://uic.zoom.us/u/kc8wdKFziM\n\nJoin by SIP\n8683
+ 9286434@zoomcrc.com\n\nJoin by H.323\n162.255.37.11 (US West)\n162.255.3
+ 6.11 (US East)\n221.122.88.195 (China)\n115.114.131.7 (India Mumbai)\n11
+ 5.114.115.7 (India Hyderabad)\n213.19.144.110 (Amsterdam Netherlands)\n2
+ 13.244.140.110 (Germany)\n103.122.166.55 (Australia Sydney)\n103.122.167
+ .55 (Australia Melbourne)\n209.9.211.110 (Hong Kong SAR)\n149.137.40.110
+  (Singapore)\n64.211.144.160 (Brazil)\n149.137.68.253 (Mexico)\n69.174.5
+ 7.160 (Canada Toronto)\n65.39.152.160 (Canada Vancouver)\n207.226.132.11
+ 0 (Japan Tokyo)\n149.137.24.110 (Japan Osaka)\nMeeting ID: 868 3928 6434
+ \nPasscode: 54532974\n\n
+LOCATION:https://uic.zoom.us/j/86839286434?pwd=dE5JbG43MGNnOEhKNDBNNFRrRV
+ FKUT09
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
