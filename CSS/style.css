@@ -15,15 +15,19 @@ body {
     width: 100%;
     grid-template-columns: 33% 33% 33%;
   }
+
+  #navigationBar{
+    text-align: center;
+  }
   
   #areaA {
-    background-color: lime;
+    /* background-color: rgb(234, 240, 234); */
   }
   
   #areaB {
-    background-color: yellow;
+    /* background-color: yellow; */
   }
 
 #areaC {
-  background-color: beige;
+  /* background-color: beige; */
 }
